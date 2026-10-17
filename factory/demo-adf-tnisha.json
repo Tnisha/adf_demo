@@ -1,0 +1,21 @@
+{
+	"name": "demo-adf-tnisha",
+	"properties": {
+		"globalParameters": {
+			"email_recepient": {
+				"type": "string",
+				"value": "chaudharytnisha@gmail.com"
+			}
+		},
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "fdefb47d-fde3-4a7d-9f81-4cd898a4e621",
+		"tenantId": "c06d1f95-062e-41b4-8fab-25c7e7fdf6fa"
+	}
+}
