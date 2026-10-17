@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "demo-adf-tnisha"
+		},
+		"LS_SQL_Server_tnisha_password": {
+			"value": ""
+		},
+		"LS_ADLS_properties_typeProperties_url": {
+			"value": "https://demodatatnisha.dfs.core.windows.net/"
+		},
+		"LS_SQL_Server_tnisha_properties_typeProperties_server": {
+			"value": "demo-tnisha.database.windows.net"
+		},
+		"LS_SQL_Server_tnisha_properties_typeProperties_database": {
+			"value": "demo_sql_db_tnisha"
+		},
+		"LS_SQL_Server_tnisha_properties_typeProperties_userName": {
+			"value": "tnisha"
+		},
+		"TGR_Eveent_properties_typeProperties_scope": {
+			"value": "/subscriptions/37a8489c-f0ef-4f19-a674-6025f85e38f1/resourceGroups/test/providers/Microsoft.Storage/storageAccounts/demodatatnisha"
+		}
+	}
+}
