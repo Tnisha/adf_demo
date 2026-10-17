@@ -7,10 +7,6 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "demo-adf-tnisha"
 		},
-		"LS_SQL_Server_tnisha_password": {
-			"type": "secureString",
-			"metadata": "Secure string for 'password' of 'LS_SQL_Server_tnisha'"
-		},
 		"LS_ADLS_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://demodatatnisha.dfs.core.windows.net/"
@@ -30,6 +26,10 @@
 		"TGR_Eveent_properties_typeProperties_scope": {
 			"type": "string",
 			"defaultValue": "/subscriptions/37a8489c-f0ef-4f19-a674-6025f85e38f1/resourceGroups/test/providers/Microsoft.Storage/storageAccounts/demodatatnisha"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"type": "string",
+			"defaultValue": "https://demo-tnisha.vault.azure.net/"
 		},
 		"containerUri": {
 			"type": "string",
@@ -58,11 +58,11 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
-					"LS_SQL_Server_tnisha_password": {
-						"value": "[parameters('LS_SQL_Server_tnisha_password')]"
-					},
 					"LS_ADLS_properties_typeProperties_url": {
 						"value": "[parameters('LS_ADLS_properties_typeProperties_url')]"
+					},
+					"AzureKeyVault1_properties_typeProperties_baseUrl": {
+						"value": "[parameters('AzureKeyVault1_properties_typeProperties_baseUrl')]"
 					},
 					"LS_SQL_Server_tnisha_properties_typeProperties_server": {
 						"value": "[parameters('LS_SQL_Server_tnisha_properties_typeProperties_server')]"
